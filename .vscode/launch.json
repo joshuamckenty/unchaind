@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Flask",
+            "type": "python",
+            "request": "launch",
+            "module": "flask",
+            // "cwd": "${workspaceFolder}/src",
+            "env": {
+                "FLASK_APP": "src/app.py",
+                "FLASK_DEBUG": "1"
+            },
+            "args": [
+                "run",
+            ],
+            "jinja": true,
+            "justMyCode": true
+        }
+    ]
+}
