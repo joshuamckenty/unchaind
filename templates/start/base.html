@@ -16,8 +16,8 @@
              
         {% block styles %}
         <link href="/static/css/styles.css" rel="stylesheet" />
-        <link href="/static/styles.css" rel="stylesheet" />   
         <link href="{{url_for('static', filename='start/styles.css')}}" rel="stylesheet">
+        <link href="/static/styles.css" rel="stylesheet" />   
 
         {% endblock %}
     </head>
@@ -81,12 +81,9 @@
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
                         <div class="p-5">
-                        
 
-                        <img src="/static/unchaind-cert.png" width="480" height="193"/><br/>
-                        <img src="/static/unchaind-cert-2.png" width="480" height="160"/><br/>
-                        <img src="/static/unchaind-cert-3.png" width="480" height="160"/><br/>
-                        <img src="/static/unchaind-small.png" width="114" height="114"/><br/>
+                        <img class="m-2" src="/static/unchaind-cert-2.png" width="480" height="160"/><br/>
+                        <img class="m-2" src="/static/unchaind-small-2.png" width="114" height="114"/><br/>
                         
                         <!-- <img class="img-fluid rounded-circle" src="assets/img/02.jpg" alt="..."> -->
                         </div>

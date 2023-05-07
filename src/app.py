@@ -8,7 +8,7 @@ def main():
     return render_template_string(
         """
             <h1> Unchaind.org </h3>
-            <h3>The Blockchain Free Alliance</h3>
+            <h3>The Blockchain-Free Alliance</h3>
         """,
     )
 
